@@ -19,8 +19,8 @@
           </div>
 
           <div class="button-container">
-              <button class="add">Add</button>
-              <button class="remove">Remove</button>
+              <button class="add" @click="addProductIntoCart()">Add</button>
+              <button class="remove" @click="removeProductFromCart()">Remove</button>
           </div>
 
             </div>
@@ -39,7 +39,16 @@ export default {
         }
     },
     methods: {
-        
+        addProductIntoCart(){
+            
+            return this.$store.commit('addProductIntoCart', this.product)
+        },
+
+        removeProductFromCart(){
+
+            return this.$store.commit('removeProductFromCart', this.product)
+        }
+             
     },
 
     props : ['product', 'active'],
@@ -48,7 +57,7 @@ export default {
 
         product_total(){
 
-            return 8
+            return this.$store.getters.QuantityProductInCart(this.product)
         }
 
     },

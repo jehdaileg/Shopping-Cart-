@@ -12,8 +12,8 @@ const items = [
 
       
       {
-        id: 1,
-        name: "shirt",
+        id: 2,
+        name: "Pull",
         category:"clothes",
         price:20.0,
         description: "loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem",
@@ -22,8 +22,8 @@ const items = [
 
       
       {
-        id: 1,
-        name: "shirt",
+        id: 3,
+        name: "Cap",
         category:"clothes",
         price:20.0,
         description: "loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem",
@@ -32,8 +32,8 @@ const items = [
 
       
       {
-        id: 1,
-        name: "shirt",
+        id: 4,
+        name: "Keppy",
         category:"clothes",
         price:20.0,
         description: "loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem",
@@ -42,8 +42,8 @@ const items = [
 
       
       {
-        id: 1,
-        name: "shirt",
+        id: 4,
+        name: "Crow",
         category:"clothes",
         price:20.0,
         description: "loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem",
@@ -52,8 +52,8 @@ const items = [
 
       
       {
-        id: 1,
-        name: "shirt",
+        id: 5,
+        name: "Adidas",
         category:"clothes",
         price:20.0,
         description: "loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem",
@@ -62,8 +62,8 @@ const items = [
 
       
       {
-        id: 1,
-        name: "shirt",
+        id: 6,
+        name: "Van",
         category:"clothes",
         price:20.0,
         description: "loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem",
@@ -72,8 +72,8 @@ const items = [
 
       
       {
-        id: 1,
-        name: "shirt",
+        id: 7,
+        name: "Louis Vuilton",
         category:"clothes",
         price:20.0,
         description: "loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem",
@@ -82,8 +82,8 @@ const items = [
 
       
       {
-        id: 1,
-        name: "shirt",
+        id: 8,
+        name: "Gucci",
         category:"clothes",
         price:20.0,
         description: "loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem",
@@ -92,8 +92,8 @@ const items = [
 
       
       {
-        id: 1,
-        name: "shirt",
+        id: 9,
+        name: "Nike",
         category:"clothes",
         price:20.0,
         description: "loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem",
@@ -102,8 +102,8 @@ const items = [
 
       
       {
-        id: 1,
-        name: "shirt",
+        id: 9,
+        name: "Timberland",
         category:"clothes",
         price:20.0,
         description: "loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem",
@@ -112,7 +112,7 @@ const items = [
 
       
       {
-        id: 1,
+        id: 10,
         name: "shirt",
         category:"clothes",
         price:20.0,
