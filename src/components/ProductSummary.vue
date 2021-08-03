@@ -82,10 +82,10 @@ export default {
 
 button.btn-view-product-in-cart  {
 
- color: rgb(206, 199, 199);
+ color: blueviolet;
  font-size: 1.0rem;
  font-weight: bold;
- background-color: pink;
+ background-color:lightyellow;
  padding: 12px;
  border: none;
  border-radius: 5px;

@@ -7,13 +7,17 @@
 
               <CartItem
 
-              v-for="product in items"
+              v-for="product in products"
 
              :key = "product.id" 
 
              :product = "product"
        
        />
+
+       <PayementCartView
+        :products = "products"
+        />
 
         </div>
         
@@ -24,11 +28,14 @@
 
 import CartItem from "../components/Cart/CartItem.vue";
 
+import PayementCartView from "../components/Cart/PayementCartView.vue";
+
+
 export default {
 
     computed: {
          
-         items(){
+         products(){
              
              return this.$store.getters.cartItemsContent
          }
@@ -36,7 +43,7 @@ export default {
 
     components: {
 
-        CartItem
+        CartItem,  PayementCartView, 
     }
     
 }
